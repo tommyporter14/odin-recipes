@@ -1,20 +1,35 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 *{
     background-color: orange;
+    margin:0;
+    padding:0;
 }
 
 .title {
-    color: rgb(96, 5, 23);
+    color: black;
+    border-style: solid;
+    border-width:3px;
+    border-color: black;
     font-weight: bold;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 40px;
+    font-size: 50px;
+    margin:4%;
+    background-color:rgb(171, 50, 50);
 }
 
 .image {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 2% auto;
     width: 50%;
+    border-style: solid;
+    border-width:3px;
+    border-color: black;
   }
 
 .list {
@@ -27,21 +42,34 @@
 }
 
 .home.para {
-    color:black
+    color:black;
+    margin: 2%;
 }
 
 .home {
     text-align: center;
     color: rgb(96, 5, 23);
     font-family:'Times New Roman', Times, serif;
+    margin:2%;
 }
 
 .listtwo {
     text-align: left;
     font-family:'Times New Roman', Times, serif;
+    margin-left:6%;
+    margin-right:6%;
+    margin-bottom: 6%;
 }
 
 #button {
     background-color: rgb(171, 50, 50);
-    margin-bottom:2%;
+    height: 50px;
+    width: 120px;
+    margin-top: 2%;
+    padding: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    border-style: solid;
+    border-width:3px;
+    border-color: black;
 }
